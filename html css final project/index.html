@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+    <!-- icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>Edyoda HTML and CSS final project</title>
+</head>
+
+<body>
+    <!-- header start  -->
+    <header id="header">
+        <!-- nav start  -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar_id">
+            <div id="logo_img"> <a class="navbar-brand" href="#">
+                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-white.png" width="90" alt=""></a>
+            </div>
+            <div class="container-fluid" id="container">
+                <button class="navbar-toggler navbar-toggler-icon" id="toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav " id="nav-list">
+                        <li class="nav-item">
+                            <a id="home" class="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">BLOG</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PAGES
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div id="get-free-quote"><a href="#">GET FREE QUOTE</a></div>
+                </div>
+            </div>
+            <!-- nav end  -->
+        </nav>
+
+        <!-- banner  -->
+        <div id="banner">
+            <h1>YOU DREAM. WE <br> CREATE.</h1>
+            <p>We turn your ideas to reality, we don't stop until you're satisfied.</p>
+            <button>GET FREE QUOTE</button>
+        </div>
+
+        <!-- wrapper  -->
+        <div class="row justify-content-end align-items-center" id="wrapper">
+            <div class="col-md-3 wrapper-item">
+                <i class="bi bi-telephone"></i>
+                <p>PHONE NUMBER</p>
+                <p>1-800-506-266</p>
+                <p>1-100-777-800</p>
+            </div>
+            <div class="col-md-3">
+                <i class="bi bi-envelope"></i>
+                <p>CONTACT</p>
+                <p>contact@nuuk.com</p>
+                <p>nfo@nuuk.com</p>
+            </div>
+            <div class="col-md-3">
+                <i class="bi bi-clock"></i>
+                <p>OPENING TIMES</p>
+                <p>Mon - Sat 8:00 - 17:30, Sunday - Closed</p>
+                <p><a href="#">FIND ON MAP</a></p>
+            </div>
+        </div>
+
+        <!-- social-icon  -->
+        <div class="social-icon">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+
+        <!-- header end  -->
+    </header>
+
+    <!-- specialization container  -->
+    <div class="container px-4 pt-5 mt-5" id="featured-3">
+        <div id="feature-heading">
+            <h2 class="pb-2">OUR SPECILIZATION</h2>
+            <span>VIEW ALL SERVICES</span>
+        </div>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
+            <div class="feature col feature-item">
+                <div class="feature-icon ">
+                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/brickwall.svg" width="70" alt="">
+                </div>
+                <h2>RENOVATION</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique.</p>
+                <a href="#" class="icon-link">
+                    LEARN MORE
+                    <svg class="bi" width="1em" height="1em">
+                        <use xlink:href="#chevron-right"></use>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="feature col feature-item">
+                <div class="feature-icon ">
+                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/set-square.svg" width="70" alt="">
+                </div>
+                <h2>ARCHITECTURE</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique.</p>
+                <a href="#" class="icon-link">
+                    LEARN MORE
+                    <svg class="bi" width="1em" height="1em">
+                        <use xlink:href="#chevron-right"></use>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="feature col feature-item">
+                <div class="feature-icon ">
+                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/toolbox.svg" width="70" alt="">
+                </div>
+                <h2>CONSTRUCTION</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique.</p>
+                <a href="#" class="icon-link">
+                    LEARN MORE
+                    <svg class="bi" width="1em" height="1em">
+                        <use xlink:href="#chevron-right"></use>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="feature col feature-item">
+                <div class="feature-icon">
+                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/paint-roller.svg" width="70" alt="">
+                </div>
+                <h2>FINANCIAL RESULTS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique.</p>
+                <a href="#" class="icon-link">
+                    LEARN MORE
+                    <svg class="bi" width="1em" height="1em">
+                        <use xlink:href="#chevron-right"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- margin-page  -->
+    <div class="row  " id="margin-page">
+        <div class="col-4" id="margin-page-img">
+            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/serv-1.jpg" width="550" alt="">
+        </div>
+        <div class="col-4 " id="margin-page-text">
+            <h1 class="title">WHO WE ARE</h1>
+            <h1 class=" title-about">ABOUT</h1>
+            <p>Based on collective work and shared knowledge, Nuuk aims to favor dialogue and debate, to transform
+                individual knowledge into increased creative potential.</p>
+            <p>Our studio is a architecture practice based in NY and Paris. Today, it includes 150 architects, urban
+                planners, landscape and interior designers of 25 different nationalities. The company principle of
+                Architecture-Studio is the collective conception. From the very beginning, the practice has believed in
+                the virtues of exchange, crossing ideas, common effort, shred knowledge.</p>
+            <a href="#">MEET THE TEAM</a>
+        </div>
+    </div>
+
+    <!-- numberbox  -->
+    <div class="row" id="number-box">
+        <div class="col-3">
+            <div class="number">170</div>
+            <p>Employer with over 10 years of experience</p>
+        </div>
+        <div class="col-3">
+            <div class="number">10</div>
+            <p>Years experience in construction industries</p>
+        </div>
+        <div class="col-3">
+            <div class="number">690</div>
+            <p>Residential premises completed in 2019</p>
+        </div>
+        <div class="col-3">
+            <div class="number">71</div>
+            <p>Milion dollar value on investments</p>
+        </div>
+
+    </div>
+
+    <!-- image galary  -->
+    <div class="row " id="img-galary">
+        <div class="col-md-12" id="the-text">
+            <div>
+                <h1>PROJECTS</h1>
+                <h2>OUR WORK</h2>
+            </div>
+            <span>VIEW ALL WORKS</span>
+        </div>
+
+        <div class="container-img">
+            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-1.jpg" alt="Avatar" class="image">
+            <div class="middle">
+                <div class="text">VIEW PROJECT</div>
+            </div>
+        </div>
+        <div class="container-img">
+            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-4.jpg" alt="Avatar" class="image">
+            <div class="middle">
+                <div class="text">VIEW PROJECT</div>
+            </div>
+        </div>
+        <div class="container-img">
+            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-3.jpg" alt="Avatar" class="image">
+            <div class="middle">
+                <div class="text">VIEW PROJECT</div>
+            </div>
+        </div>
+        <div class="container-img">
+            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-6.jpg" alt="Avatar" class="image">
+            <div class="middle">
+                <div class="text">VIEW PROJECT</div>
+            </div>
+        </div>
+        <div class="container-img">
+            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-5.jpg" alt="Avatar" class="image">
+            <div class="middle">
+                <div class="text">VIEW PROJECT</div>
+            </div>
+        </div>
+        <div class="container-img">
+            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-2.jpg" alt="Avatar" class="image">
+            <div class="middle">
+                <div class="text">VIEW PROJECT</div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- gradient box  -->
+    <div class="gradient-box">
+        <h2>LET'S MAKE SOMETHING GREAT TOGETHER</h2>
+        <p>Get in touch with us and send some basic info for a quick quote.</p>
+        <div class="gradient-anchor"><a href="#">GET FREE QUOTE</a></div>
+    </div>
+
+    <!-- card-section  -->
+    <div class="row" id="card-section">
+        <div class="col-md-12" id="the-text">
+            <div>
+                <h1>TEAMS</h1>
+                <h2>PROFESSIONALS</h2>
+            </div>
+            <span>ABOUT US</span>
+        </div>
+
+        <div class="col-md-3 card m-2 p-0">
+            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title mt-3">PHILIP BROWER</h5>
+                <p class="card-text mb-3">Managing Director.</p>
+            </div>
+            <div class="card-social-icon">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="col-md-3 card m-2 p-0">
+            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title mt-3">JOHN WICK</h5>
+                <p class="card-text mb-3">Managing Director.</p>
+            </div>
+            <div class="card-social-icon">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="col-md-3 card m-2 p-0">
+            <img src="	https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title mt-3">JIMMY MCGILL</h5>
+                <p class="card-text mb-3">Managing Director.</p>
+            </div>
+            <div class="card-social-icon">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="col-md-3 card m-2 p-0">
+            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title mt-3">SARA CONNOR</h5>
+                <p class="card-text mb-3">Managing Director.</p>
+            </div>
+            <div class="card-social-icon">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- testimonial-section  -->
+    <div class="row">
+        <div class="col-md-5 p-5" id="testimonial-text">
+            <div>
+                <h1>CLINTS</h1>
+                <h2>TESTIMONIALS</h2>
+            </div>
+            <P>Aenean ut eros et nisl sagittis vestibulum. Fusce neque. Praesent blandit laoreet nibh. Morbi mollis
+                tellus ac sapien.</P>
+            <span>OUR SERVICES</span>
+        </div>
+        <div class="col-md-7">
+            <div class="row " id="testimonial-card-container">
+
+                <div class="col-md-5 mx-3" id="testimonial-card-container1">
+                    <div class="row g-4 py-5  ">
+                        <div class="feature col testimonial-card border mb-3 bg-light">
+                            <div class="testimonial-icon">"</div>
+                            <h5>SARA WILLIAM</h5>
+                            <h6>CEO at Webflow</h6>
+                            <p>"Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                                vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet"</p>
+                        </div>
+                    </div>
+
+                    <div class="row g-4 py-5">
+                        <div class="feature col testimonial-card border mb-3 bg-light">
+                            <div class="testimonial-icon">"</div>
+                            <h5>JOHN JUNIOR</h5>
+                            <h6>Menager at Complexx</h6>
+                            <p>"Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Cras varius. Etiam sit
+                                amet orci eget eros faucibus tincidunt. Fusce a quam"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 mx-3" id="testimonial-card-container2">
+                    <div class="row g-4 py-5 ">
+                        <div class="feature col testimonial-card border mb-3 bg-light">
+                            <div class="testimonial-icon">"</div>
+                            <h5>RAVEN DURGAN</h5>
+                            <h6>Architect at GroupCEO at Webflow</h6>
+                            <p>"Aliquam eu nunc. Cras dapibus. Vestibulum turpis sem, aliquet eget, lobortis
+                                pellentesque, rutrum eu, nisl"</p>
+                        </div>
+                    </div>
+
+                    <div class="row g-4 py-5 ">
+                        <div class="feature col testimonial-card border mb-3 bg-light">
+                            <div class="testimonial-icon">"</div>
+                            <h5>SAMI TYPO</h5>
+                            <h6>SEO at Balfin</h6>
+                            <p>"Vestibulum fringilla pede sit amet augue. Morbi ac felis. Ut a nisl id ante tempus
+                                hendrerit"</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- news blog section  -->
+    <div class="row my-5">
+        <div class="col-md-12" id="the-text">
+            <div>
+                <h1>BLOG</h1>
+                <h2>LATEST NEWS</h2>
+            </div>
+            <span>VIEW BLOG</span>
+        </div>
+
+        <div class="card-group mx-3">
+            <div class="card mx-2 mb-2 news-blog">
+                <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body px-4">
+                    <h5 class="card-title">BLOGPOST 1</h5>
+                    <p class="card-text">Service and providing potential clients and customers with testimonials is one
+                        of the best way to market.</p>
+                    <div class="news-blog-readmore"><a href="#">READ MORE</a></div>
+                    <div class="news-blog-day">
+                        <span class="news-blog-date">17</span>
+                        <span class="news-blog-month">OCT</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mx-2 mb-2 news-blog">
+                <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body px-4">
+                    <h5 class="card-title">BLOGPOST 2</h5>
+                    <p class="card-text">Service and providing potential clients and customers with testimonials is one
+                        of the best way to market.</p>
+                    <div class="news-blog-readmore"><a href="#">READ MORE</a></div>
+                    <div class="news-blog-day">
+                        <span class="news-blog-date">17</span>
+                        <span class="news-blog-month">OCT</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mx-2 mb-2 news-blog">
+                <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body px-4">
+                    <h5 class="card-title">BLOGPOST 3</h5>
+                    <p class="card-text">Service and providing potential clients and customers with testimonials is one
+                        of the best way to market.</p>
+                    <div class="news-blog-readmore"><a href="#">READ MORE</a></div>
+                    <div class="news-blog-day">
+                        <span class="news-blog-date">17</span>
+                        <span class="news-blog-month">OCT</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- logo section  -->
+    <div class="row" id="logo-section">
+        <div class="col-md-3 logo-section-para">
+            <p>TRUSTED BT TOP COMPINIES</p>
+        </div>
+
+        <div class="col-md-9" id="logo-box">
+            <div class="col-md-2">
+                <a href="#"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-1w.png" width="100px"
+                        alt=""></a>
+            </div>
+            <div class="col-md-2">
+                <a href="#"><img src="	https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-2w.png" width="100px"
+                        alt=""></a>
+            </div>
+            <div class="col-md-2">
+                <a href="#"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-3w.png" width="100px"
+                        alt=""></a>
+            </div>
+            <div class="col-md-2">
+                <a href="#"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-4w.png" width="100px"
+                        alt=""></a>
+            </div>
+            <div class="col-md-2">
+                <a href="#"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-5w.png" width="100px"
+                        alt=""></a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- footer  -->
+    <div class="footer">
+        <div class="row footer-text-container">
+            <div class="col-md-4 mb-4">
+                <h5>ABOUT NUUK</h5>
+                <p>Based on collective work and shared knowledge, Nuuk aims to favor dialogue and debate, to transform
+                    individual knowledge into increased creative potential.</p>
+                <div><a href="#">FIND ON MAP</a></div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5 class="footer-services">SERVICES</h5>
+                <div><a href="#">FINANCIAL RESULTS</a></div>
+                <div><a href="#">CONSTRUCTION</a></div>
+                <div><a href="#">ARCHITECTURE</a></div>
+                <div><a href="#">RENOVATION</a></div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <h5>CONTACT US</h5>
+                <div class="footer-contact">
+                    <i class="bi bi-telephone"></i>
+                    <span>PHONE NUMBER</span>
+                    <p>1-800-506-266</p>
+                </div>
+
+                <div class="footer-contact">
+                    <i class="bi bi-clock"></i>
+                    <span>OPENING TIMES</span>
+                    <p>Mon - Sat 8:00 - 17:30, Sunday - Closed</p>
+                </div>
+
+                <div class="footer-contact">
+                    <i class="bi bi-envelope"></i>
+                    <span>CONTACT</span>
+                    <p>contact@nuuk.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="footer_logo_img">
+                <a class="navbar-brand" href="#">
+                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-white.png" width="90" alt=""></a>
+            </div>
+        </div>
+        <!-- footer end  -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

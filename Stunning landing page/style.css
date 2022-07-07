@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* header  */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stunning-logo img {
+    width: 8rem;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navbar-list li {
+    padding: 1.5rem;
+}
+
+.navbar-list li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #8071D0;
+    text-decoration-thickness: 4px;
+}
+
+.nav-btn button {
+    padding: 1.1rem;
+    border-radius: 18px;
+    background-color: #FFD8DB;
+    color: #A389CC;
+    border: none;
+}
+
+/* section_left  */
+
+#main {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.section_left {
+    text-align: start;
+    margin-left: 120px;
+}
+
+.section-div1 h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', serif;
+}
+
+.section-div1 p {
+    font-size: 16px;
+    opacity: 0.9;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.new-account-btn {
+    display: flex;
+}
+
+.new-account-btn button {
+    margin: 6px 8px;
+    padding: 1.1rem;
+    border-radius: 18px;
+    background-color: #5243C0;
+    color: #ffffff;
+    border: none;
+}
+
+.new-account-btn img {
+    padding-left: 10px;
+}
+
+/* user  */
+.section-div2 {
+    margin-top: 60px;
+}
+
+.users {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    padding: 4px 0;
+    margin: 15px 0px;
+}
+
+.users:hover {
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 8px gray;
+}
+
+.cheakbox-icon {
+    color: white;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.users i:hover {
+    color: blue;
+}
+
+.user-color {
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+.span1 {
+    width: 120px;
+    font-weight: 700;
+}
+
+.span2 {
+    margin: 5px;
+    opacity: 0.5;
+}
+
+.color-icon1 {
+    width: 20px;
+    height: 10px;
+    border-radius: 6px;
+    background-color: rgb(218, 163, 172);
+    margin: 10px;
+}
+.color-icon2 {
+    width: 20px;
+    height: 10px;
+    border-radius: 6px;
+    background-color: rgb(219, 93, 43);
+    margin: 10px;
+}
+.color-icon3 {
+    width: 20px;
+    height: 10px;
+    border-radius: 6px;
+    background-color: lightgreen;
+    margin: 10px;
+}
+.color-icon4 {
+    width: 20px;
+    height: 10px;
+    border-radius: 6px;
+    background-color: rgb(219, 207, 115);
+    margin: 10px;
+}
